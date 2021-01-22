@@ -21,7 +21,7 @@ module.exports = {
         '@typescript-eslint/array-type': ['warn', { default: 'array-simple' }],
         '@typescript-eslint/class-literal-property-style': ['warn', 'fields'],
         '@typescript-eslint/consistent-type-definitions': ['warn'],
-        '@typescript-eslint/consistent-type-imports': ['warn'],
+        '@typescript-eslint/consistent-type-imports': ['warn', { prefer: 'no-type-imports' }],
         '@typescript-eslint/member-delimiter-style': ['warn'],
         '@typescript-eslint/member-ordering': ['warn'],
         '@typescript-eslint/naming-convention': [
