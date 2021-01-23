@@ -19,6 +19,7 @@ module.exports = {
     rules: {
         'prefer-const': ['error'],
         '@typescript-eslint/array-type': ['warn', { default: 'array-simple' }],
+        '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/class-literal-property-style': ['warn', 'fields'],
         '@typescript-eslint/consistent-type-definitions': ['warn'],
         '@typescript-eslint/consistent-type-imports': ['warn', { prefer: 'no-type-imports' }],
